@@ -6,6 +6,12 @@ As seen on: https://www.tiktok.com/@giraintech/video/7583879890265558280
 
 ---
 
+## Getting Your Snapchat Data
+1. Open Snapchat and go to Settings → My Data.
+2. Request your Memories and select JSON formatting.
+3. Snapchat will email you a link to download a ZIP file containing your exported data.
+4. Extract the ZIP file and locate the JSON file to use with this script.
+
 ## How It Works
 
 1. Export your Snapchat memories as a JSON file from Snapchat.
@@ -25,9 +31,3 @@ python3 download_snapchat.py
 - Internet connection (to download media files)
 - urllib (comes with Python standard library)
 - Access to the JSON export from Snapchat
-
-## Getting Your Snapchat Data
-1. Open Snapchat and go to Settings → My Data.
-2. Request your Memories and select JSON formatting.
-3. Snapchat will email you a link to download a ZIP file containing your exported data.
-4. Extract the ZIP file and locate the JSON file to use with this script.
